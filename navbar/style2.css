@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+   
+}
+.global {
+    display: flex;
+    flex-wrap: nowrap ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position : fixed;
+    width: 100%;
+        }
+         img {
+            max-width: 50%;
+            max-height:Auto;
+          }
+a{
+   padding-right: 10px;
+  font-size: 20px;
+              
+  }
+       a:hover{
+        color:blue;
+        text-decoration: underline;
+       }

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Color lib Free Bootstrap Website Template</title>
+ <link rel="stylesheet" href="site recreation.css">
+</head>
+<Body>
+<section class="websitestructure">
+    <section class="barre">
+    <nav class="navbar">
+        <div class="Nitro">Nitro.</div>      
+        <div class="menu">
+            <a class="Home">Home</a>
+            <div class= "ABTUS">
+                <div class="About us">About Us</div>
+                
+                <div class="dropdown-content">
+                <a href="#">Team</a>
+                <a href="#">Pricing</a>
+                <a href="#">FAQ</a>
+                <a href="#">More Links</a>
+                </div>               
+            </div>
+            <a class="Portfolio">Portfolio</a>
+            <a class="Services">Services</a>
+            <a class="Testemonials">Testemonials</a>
+            <a class="Blog">Blog</a>
+            <a class="Contact">Contact</a>
+        </div>
+    </nav>
+    </section>
+    <section class="Homesection">
+        <section class="Homesectionboxes">
+             <div><h1>WELCOME</h1></div>
+             <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta</p></div>
+             <div><p>eius error.</p></div>
+             <div>
+                <button class="GetInTouch">Get In Touch</div>
+                
+             </div>    
+        </section>
+    </section>
+    <section class="sectionaboutus">
+        <div class="AboutUs"><h1>About Us</h1></div>
+        <div class="pictext">      
+            <img class="lady" src="website-images/hero_1.jpg" alt="">
+            <div class="text">
+                <div><h1>For the next great business</h1></div>
+                <p class="big">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Quo tempora cumque eligendi in nostrum labore omnis<br> 
+                quaerat<br> 
+                <div class="texicone">
+                        
+                            <P class="texticone">
+                            <p class="para">Officia quaerat eaque neque</p><br>
+                            <p class="para">Possimus aut consequuntur incidunt</p><br>   
+                            <p class="para">Lorem ipsum dolor sit amet</p><br>
+                            <p class="para">Consectetur adipisicing elit</p><br>
+                            </div>                        
+                </div>
+        </div>
+    </section>
+    <section class="ourfeaturessegment">
+        <div class="ourfeatures">
+            <h2>Our Features</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima</p>
+            <p>neque tempora reiciendis.</p>
+        </div>
+        <div class="slidesec">
+            <div class="imagecontent">
+                <img class="mySlides" src="./website-images/slide_1.jpg" style="width:70%">
+                <img class="mySlides" src="./website-images/slide_2.jpg" style="width:70%">
+                <img class="mySlides" src="./website-images/slide_3.jpg" style="width:70%">
+                <img class="mySlides" src="./website-images/slide_4.jpg" style="width:70%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+            <div class="textcontent">
+                <div class="mySlidest">
+                    <div><h1>Minimal and Modern</h1>
+                        <h1>Design</h1>
+                    </div>
+                    <p class="bigg">
+                    Lorem ipsum dolor sit amet consectetur<br>
+                    adipisicing elit.<br>
+                    <div class="texicone">
+                        
+                        <P class="texicone">
+                        <p class="para2">Est qui eos quasi ratione nostrum excepturi id recusandae</p><br>
+                        <p class="para2">fugit omnis ullam pariatur itaque nisi voluptas impedit</p><br>   
+                        <p class="para2">Lorem ipsum dolor sit amet</p><br>
+                        
+                        </div>    
+                    <br> 
+                    <br> 
+                    <br>
+                    <!-- <div class="texicone">
+                        
+                            <P class="texticone">
+                            <p class="para">Officia quaerat eaque neque</p><br>
+                            <p class="para">Possimus aut consequuntur incidunt</p><br>   
+                            <p class="para">Lorem ipsum dolor sit amet</p><br>
+                            <p class="para">Consectetur adipisicing elit</p><br>
+                            </div>  -->
+                <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>                       
+                </div> -->
+                <!-- <div class="mySlidest">
+                    <div><h1>For the next ggjgdqfkhkhsfreat business</h1></div>
+                    <p class="big">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Quo tempora cumque eligendi in nostrum labore omnis<br> 
+                    quaerat<br> 
+                    <div class="texicone">
+                        
+                            <P class="texticone">
+                            <p class="para">Officia quaerat eaque neque</p><br>
+                            <p class="para">Possimus aut consequuntur incidunt</p><br>   
+                            <p class="para">Lorem ipsum dolor sit amet</p><br>
+                            <p class="para">Consectetur adipisicing elit</p><br>
+                            </div> 
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>                       
+                </div>
+             -->
+           
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+             <!-- <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("para");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                </script> -->
+              
+              
+              
+
+        </div>
+
+    </section>
+</section>
+</Body>
+</html>
