@@ -1,10 +1,12 @@
 *{
     margin: 0%;
     padding: 0%;
+    max-width: 100%;
     font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
  }
 .barre{
-    position: fixed absolute;
+    position: fixed;
+    width: 100%;
     
 }
 .navbar{
@@ -12,8 +14,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
-    position: absolute;
+    align-items: center; 
     width: 100%;
     background-color: white;
     height: 80px;
@@ -189,6 +190,8 @@ p.big {
   .para::before{
     content: url(./website-images/ok.png);
     margin-right: 5%; 
+   max-width: 2%;
+   height: auto;
   }
 .ourfeatures {
     margin-bottom: 12%;
@@ -212,6 +215,8 @@ font-size: 120%;
     flex-direction: row;
     align-content: center;
     margin-left: 15%;
+    margin-top:-8% ;
+    width: 190%;
   
 }
 
@@ -230,12 +235,167 @@ font-size: 120%;
 }
 .textcontent{
     width: 80%;
+    margin-left: -3%;
 }
 .texicone{
-margin-top: 4%;
+margin-top: 1%;
 line-height: 0.8;
 }
 p.bigg{
-    margin-top: 3%;
+    margin-top: 1%;
     font-size: 120%;
+}
+.Learnmore{
+    height: 48px;
+    width: 140px;
+    background-color: #007bff;
+    border-radius:30px;
+    border: none;
+    margin-top: 1%;   
+    color: white;
+    font-size: 115%;
+}  
+.ouurteam h2{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 250%;
+    color:#007bff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   
+}
+.ouurteam p{
+text-align: center;
+font-size: 120%;
+}
+.globalcontainer{
+  
+    margin-top: 4%;
+    width: 100%;
+    
+}
+.container1{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.perso{
+    width:85%;
+}
+.container2{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5%;
+    
+}
+.Portfolio{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  
+}
+
+.Portfolioheader h2{
+    text-align: center;
+   margin-top: 80%;
+    font-size: 250%;
+    color:#007bff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   
+}
+.portfoliobtns{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+   
+}
+.All{
+ 
+    height: 40px;
+    width: 60px;
+    background-color: rgba(52, 58, 64, 0.05);
+    border-radius:30px;
+    border: none; 
+    color: #343a40;
+    font-size: 90%;
+}   
+.All:hover{
+    background-color: #007bff;
+    color: white;
+}
+.Web{
+    height: 40px;
+    width: 80px;
+    margin-left: 10%;
+    background-color: rgba(52, 58, 64, 0.05);
+    border-radius:30px;
+    border: none;
+    color: #343a40;
+    font-size: 90%;
+    margin-left:-10%;
+}    
+.Web:hover{
+    background-color: #007bff;
+    color: white;}
+.Design{
+    height: 40px;
+    width: 80px;
+    background-color:rgba(52, 58, 64, 0.05);
+    border-radius:30px;
+    border: none;
+    color: #343a40;
+    font-size: 90%;
+}    
+.Design:hover{
+    background-color: #007bff;
+    color: white;
+}
+.Brand{
+    height: 40px;
+    width: 80px;
+    background-color: rgba(52, 58, 64, 0.05);
+    border-radius:30px;
+    border: none; 
+    color: #343a40;
+    font-size: 90%;
+}  
+.Brand:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+.globalPORTcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 85%;
+    margin-top: 2.5%;
+    margin-left: 4%;
+    
+}
+.Portcontainer1{
+    
+    display: flex;
+    flex-direction: column;
+}
+.Portcontainer2{
+    display: flex;
+    flex-direction: column;
+}
+.Portcontainer3{
+    display: flex;
+    flex-direction: column;
+}
+.Portcontainer4{
+    display: flex;
+    flex-direction: column;
+}
+.PORT{
+    max-width: 85%;
+    margin-bottom: 6%;
 }
