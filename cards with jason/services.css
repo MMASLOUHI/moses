@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: white;
+    overflow: hidden;
+}
+.nos-services{
+margin-top: -250px;
+text-align: center;
+}
+
+.services{
+    margin-top: 100px;
+   
+}
+.profile-card{
+    text-align: center;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding-left: 180px;
+    padding-right: 180px;
+  
+}
+
+.card{
+    /* width: contain;
+    height: fill; */
+    
+    border-radius: 20px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s linear;
+    justify-content: space-between;
+    width:30%;
+    background-size: contain;
+    height: 450px;
+    
+}
+/* .card1{
+    /* background-image: url("json.stringify(url)"); */
+    /* background-size: 200%; */
+    /* background-repeat: no-repeat; */
+    /* background-position: 80%; */
+    /* background-size: contain; */
+    
+    
+
+/* .cardone{
+    height: fit-content;
+    width: fit-content;
+    vertical-align: middle;
+    box-sizing: border-box;
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%;
+    left: 50%;
+    background-size: cover;
+} */ 
+/* .card2{ */
+    /* background-image: url("./images/Formation.jpg");
+    background-size: 300%; */
+    /* background-repeat: no-repeat; */
+    
+    
+/* .card3{ */
+    /* background-image: url("./images/gestion des projets.png"); 
+    background-repeat: no-repeat;
+    background-size: 250%; */
+/* } */
+
+
+    .overlay{
+        position: relative;   
+    }
+
+    .content h2{
+        color: rgb(0, 0, 0);
+        opacity: 100;
+    }
+
+.content{
+    padding-top: 80%;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+
+
+}
+
+/* .card1:hover{
+    background-size: 190%;
+    background-position: left center;
+    
+}
+.card2:hover{
+    background-size: 280%;
+    background-position: left center;
+    
+}
+.card3:hover{
+    background-size: 300%;
+    background-position: center;
+   
+} */
+
+/* .card1{
+    background-color: black;
+    opacity: 2;
+/* } */
+/* .card2{
+    background-color: black;
+    opacity: 0.8;
+}
+.card3{
+    background-color: black;
+    opacity: 1;
+} */ 
